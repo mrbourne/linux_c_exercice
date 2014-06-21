@@ -12,6 +12,7 @@
 #include <grp.h>
 #include <pwd.h>
 
+//version 1.1.0
 void mode_to_str(mode_t mod, char *str)
 {
 	strcpy(str, "----------");
